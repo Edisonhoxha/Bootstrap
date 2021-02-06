@@ -104,27 +104,31 @@ html {
 /*==========End of Hero Section===========*/
 
 .gotopbtn{
-  position: fixed;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  background:darkslategray;
-  bottom:40px;
-  right: 20px;
-  text-decoration: none;
-  text-align: center;
-  line-height: 50px;
-  color:white;
-  font-size: 22px;
-  padding: 13px;
-  z-index: 999;
+    position: fixed;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+    background: darkslategray;
+    bottom: 40px;
+    right: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 19px;
+    padding: 13px;
+    z-index: 9999;
 
 }
 .gotopbtn:hover{
   color: #A6BDE7;
   transition: 0.5s;
 }
-
+@media (max-width: 990px){
+  .gotopbtn{
+    z-index: 9999;
+  }
+}
 /*========== Variety Section===========*/
 .variety{
     padding-bottom: 40px;
