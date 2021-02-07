@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" type="text/css" href="index.css">
 <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   </head>
   <body>
  <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -34,17 +35,21 @@
   </ul>
 </div>
 </nav>
+<!-- Go top button java script -->
+    <script src="gotop.js"></script>
+    <!-- end -->
 
 
-
-<a id="#navbarResponsive" class="gotopbtn" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+<!-- go top button  -->
+<a class="gotopbtn" href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+<!-- end  -->
 
 
     <!---Hero Section-->
     <section id="hero">
         <div class="hero-container">
             <div class="hero-logo">
-                <h1 class="font-weight-bold">Take Away</h1>
+                <h1 class="font-weight-bold">88 Longue Bar</h1>
             </div>
             <h2 class="font-weight-bold">Healthy Food, Happy Mood</h2>
             
@@ -199,7 +204,7 @@
       <div class="food-description">
         <h2 class="food-title">Sandwich</h2>
         <p>"Life is like a sandwich!
-            Birth as one slice,
+            Birth as one slice.
             </p>
         <p class="food-price">$3.00</p>
       </div>
@@ -211,14 +216,14 @@
 
     
 
- <!--- Filler Section-->
-<section id="subscribe" class="py-5">
+ <!--- Paralax effect-->
+<section id="paralax" class="py-5">
     <div class="container">
         <div class="row align-items-center my-5">
         </div>
     </div>
 </section>
- <!--- End of filler Section-->
+ <!--- End of Paralax effect-->
 
  <div id="contact" class="container1">
       <span class="big-circle"></span>
@@ -264,17 +269,12 @@
               <label for="">Email</label>
               <span>Email</span>
             </div>
-            <div class="input-container">
-              <input type="tel" name="phone" class="input" />
-              <label for="">Phone</label>
-              <span>Phone</span>
-            </div>
             <div class="input-container textarea">
               <textarea name="message" class="input"></textarea>
               <label for="">Message</label>
               <span>Message</span>
             </div>
-            <input type="submit" value="Send" class="btn" />
+            <button type="submit" class="button">Send</button>
           </form>
         </div>
       </div>
